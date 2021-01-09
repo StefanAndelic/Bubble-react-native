@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Bubble-react-native",
+    "slug": "Bubble-react-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/src/assets/icon.png",
+    "splash": {
+      "image": "./app/src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./app/src/assets/favicon.png"
+    }
+  }
+}
